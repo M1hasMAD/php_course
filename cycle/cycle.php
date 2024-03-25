@@ -10,7 +10,8 @@ $person = [
 foreach ($person as $value) { // foreach for values
     echo $value . "\n";
 }
-// output: Mikhail
+// output:
+// Mikhail
 // 20
 // 189.5
 // false(=nothing)
@@ -21,7 +22,8 @@ foreach ($person as $key => $value) { // foreach for key - value
     echo $key . ': ';
     echo $value . "\n";
 }
-// output: name: Mikhail
+// output:
+// name: Mikhail
 // age: 20
 // height: 189.5
 // isMarried: false(=nothing)
